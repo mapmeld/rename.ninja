@@ -7,7 +7,12 @@ local legal systems to change their names.
 
 ## Who changes their name?
 
+Examples via LegalZoom: http://www.legalzoom.com/tips-trends/lifestyle/top-10-reasons-people-change
 
+This project can help people interested in changing their name out of personal interest.
+
+This project cannot delve into changing the name of children or for adults avoiding
+stalkers, debt, or criminal records.
 
 ## Renaming Resources
 
@@ -17,6 +22,16 @@ local legal systems to change their names.
   http://www.cookcountycourt.org/ABOUTTHECOURT/CountyDepartment/CountyDivision/ChangeofNameProceedings.aspx
 * (PDF) Transformative Justice Law Project of Illinois - Name Change 101 -
   http://tjlp.org/NameChange101Revised2012.FinalEdits.11-2-12.pdf
+
+### Massachusetts
+
+Research your local county court system (for example: Boston residents go to Suffolk
+  County Probate and Family Court)
+
+* Massachusetts Court System - Change of Name forms
+  http://www.mass.gov/courts/forms/pfc/pfc-forms-gen.html#2
+* Massachusetts Court System - Change of Name instructions
+  http://www.mass.gov/courts/forms/pfc/pfc-inst-change-of-name-gen.html
 
 ### New Hampshire
 
