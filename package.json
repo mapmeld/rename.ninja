@@ -1,0 +1,21 @@
+{
+  "author": "mapmeld",
+  "name": "Renamer",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "2.34.X",
+    "express": "3.5.X",
+    "jade": "1.3.X",
+    "mongoose": "3.8.X",
+    "passport": "0.1.X",
+    "passport-local": "0.1.X",
+    "connect-flash": "0.1.X",
+    "bcrypt-nodejs": "latest"
+  }
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
