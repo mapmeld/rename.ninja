@@ -11,10 +11,55 @@ html
     link(href="/main.css", rel="stylesheet", type="text/css")
 
   body
-    div.container
-      .row-fluid
-        p Hello Renamer
+    .navbar.navbar-inverse.navbar-fixed-top
+      .container
+        .navbar-header
+          button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href="/") Renamer
+        .collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li.active
+              a(href="/") Home
+          ul.nav.navbar-nav(style="float:right;")
+            li
+              a.btn.btn-info(href="/login") Log In
+            li
+              a.btn.btn-success(href="/signup") Sign Up
 
+    .jumbotron
+      .container
+        h1 Welcome to Renamer
+        p General information, checklist, and calendar for people interested in changing their names.
+        p
+          span This project is open source! Add additional cities&nbsp;
+          a(href="https://github.com/mapmeld/renamer") on GitHub
+          span .
+
+    .container
+      .row
+        .col-md-4
+          h2 Chicago
+          p The project is starting with resources for changing your name in Chicago, Illinois.
+          p
+            span Online forms for other cities and states are&nbsp;
+            a(href="https://github.com/mapmeld/renamer#renaming-resources") linked here
+            span .
+
+        .col-md-4
+          h2 Checklist
+          p Did you remember everything? Each court's checklist is different.
+          p
+            a(href="/signup") Create an account
+            span &nbsp;to keep track of what you have left.
+
+        .col-md-4
+          h2 Calendar
+          p When's your hearing? How many days in advance do you need to advertise your name change? Does someone need to submit an affidavit?
+          p Use the calendar to keep track of the name-change process and remind others of important deadlines.
 
     // 3rd party libraries
     script(type="text/javascript", src="/jquery-1.11.0.min.js")

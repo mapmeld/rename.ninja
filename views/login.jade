@@ -11,21 +11,27 @@ html
     link(href="/main.css", rel="stylesheet", type="text/css")
 
   body
-    div.container
-      .row-fluid
-        h1
-          span.fa.fa-sign-in
-          span Login
-        if message.length
-          div.alert.alert-danger #{message}
+    .container
+      .row
+        .span12
+          h1
+            span.fa.fa-sign-in
+            span Log In
+          if message.length
+            div.alert.alert-danger #{message}
 
-        form(action="/login", method="post")
-          .form-group
-            label Email
-            input.form-control(type="text", name="email")
-          .form-group
-            label Password
-            input.form-control(type="password", name="password")
-          button.btn.btn-warning(type="submit") Log In
-      .row-fluid
-        a(href="/signup") Sign Up
+          form(action="/login", method="post")
+            .form-group
+              label Email
+              input.form-control(type="text", name="email")
+            .form-group
+              label Password
+              input.form-control(type="password", name="password")
+            button.btn.btn-warning(type="submit") Log In
+      br
+      br
+      .row
+        .span12
+          p
+            span Wait, I don't have an account yet, and would like to&nbsp;
+            a(href="/signup") Sign Up
