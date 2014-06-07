@@ -1,4 +1,4 @@
-# Renamer
+# Rename.ninja
 
 Inspired by http://expunge.io
 
