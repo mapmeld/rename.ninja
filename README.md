@@ -1,5 +1,7 @@
 # Rename.ninja
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mapmeld/rename.ninja.svg)](https://greenkeeper.io/)
+
 Inspired by http://expunge.io
 
 Provides a checklist, calendar, and general information to citizens navigating
